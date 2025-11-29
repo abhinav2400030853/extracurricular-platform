@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #f4f8ff;
+            font-family: Arial;
+        }
+        header {
+            background: #0044cc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .sidebar {
+            width: 220px;
+            background: #002f8a;
+            height: 100vh;
+            float: left;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .sidebar a {
+            display: block;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background: #003db3;
+        }
+        .main-content {
+            margin-left: 240px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Admin Dashboard</h1>
+</header>
+
+<div class="sidebar">
+    <a href="admin.html">Dashboard</a>
+    <a href="gallery.html">Certificate Gallery</a>
+    <a href="#">Manage Students</a>
+    <a href="login.html">Logout</a>
+</div>
+
+<div class="main-content">
+
+    <h2>Welcome, Admin!</h2>
+
+    <div class="card">
+        <h3>Total Students Registered</h3>
+        <p>245 Students</p>
+    </div>
+
+    <div class="card">
+        <h3>Pending Certificate Approvals</h3>
+        <p>18 Certificates</p>
+    </div>
+
+    <div class="card">
+        <h3>Total Approved Achievements</h3>
+        <p>620 Achievements</p>
+    </div>
+
+</div>
+
+</body>
+</html>

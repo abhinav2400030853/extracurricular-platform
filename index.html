@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Extracurricular Achievements Platform</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f8ff;
+        }
+        header {
+            background: #0055ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #003fba;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 30px;
+        }
+        .card {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .btn {
+            background: #0055ff;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            margin-top: 10px;
+        }
+        footer {
+            background: #003fba;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Extracurricular Achievement Management System</h1>
+    <p>Track • Manage • Showcase Student Talents</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#upload">Upload Achievement</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    
+    <div class="card">
+        <h2>About the Platform</h2>
+        <p>
+            This web-based platform helps students record, manage, and showcase their extracurricular activities such as sports, cultural activities, competitions, and certifications. 
+            Faculty can review student submissions, and administrators can generate reports for university records and placements.
+        </p>
+    </div>
+
+    <div class="card" id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Student Login & Dashboard</li>
+            <li>Add/Upload Achievement Certificates</li>
+            <li>Faculty Review & Approval System</li>
+            <li>Achievement History & Filtering</li>
+            <li>Downloadable Reports for Placement</li>
+        </ul>
+    </div>
+
+    <div class="card" id="upload">
+        <h2>Upload Achievement</h2>
+        <p>Fill the form below to upload your new extracurricular activity:</p>
+        
+        <label>Student Name:</label><br/>
+        <input type="text" style="width:100%; padding:10px; margin:10px 0;"><br/>
+
+        <label>Activity Name:</label><br/>
+        <input type="text" style="width:100%; padding:10px; margin:10px 0;"><br/>
+
+        <label>Certificate Upload:</label><br/>
+        <input type="file" style="margin:10px 0;"><br/>
+
+        <button class="btn">Submit Achievement</button>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>Contact</h2>
+        <p>Email: support@achievementportal.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>KL University — CSE Department</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Student Extracurricular Management System | Developed for KL University
+</footer>
+
+</body>
+</html>

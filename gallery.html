@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Gallery</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #eef3ff;
+            font-family: Arial;
+        }
+        header {
+            background: #0044cc;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 25px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 15px;
+        }
+        .card {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Certificate Gallery</h1>
+</header>
+
+<div class="container">
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Certificate">
+            <p><b>Student:</b> Abhinav</p>
+            <p><b>Event:</b> Coding Contest</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Certificate">
+            <p><b>Student:</b> Kiran</p>
+            <p><b>Event:</b> National Sports Meet</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Certificate">
+            <p><b>Student:</b> Sai</p>
+            <p><b>Event:</b> Cultural Fest</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
